@@ -7,7 +7,7 @@ const Diferenciais = () => {
                 <div className="row">
                 <div 
                     className="col-md-6 thumb bg-cover" 
-                    style={{ backgroundImage: "url(/assets/img/familia.jpg)" }}
+                    style={{ backgroundImage: "url(/assets/img/familia2.jpg)" }}
                 ></div>
                 <div className="col-md-6 info server-bg">
                     <div className="heading">
