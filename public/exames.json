@@ -1,0 +1,448 @@
+[
+    {
+        "id": 1,
+        "icon": "/assets/img/icon/exames/ressonancia.png",
+        "alt": "Ressonância Magnética",
+        "description": "Ressonância Magnética de Alto Campo",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 2,
+        "icon": "/assets/img/icon/exames/radiologia.png",
+        "alt": "Radiologia Intervencionista",
+        "description": "Radiologia Intervencionista Punções e Drenagens",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 3,
+        "icon": "/assets/img/icon/exames/puncoes3.png",
+        "alt": "Punções",
+        "description": "Punções Guiadas por Ultrassonografia de Mama, Tireoide e Próstata",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 4,
+        "icon": "/assets/img/icon/exames/tomografia.png",
+        "alt": "Tomografia Computadorizada",
+        "description": "Tomografia Computadorizada Multislice",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 5,
+        "icon": "/assets/img/icon/exames/radiologia_digital.png",
+        "alt": "Radiologia Digital",
+        "description": "Radiologia Digital",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 6,
+        "icon": "/assets/img/icon/exames/medicina_mulher.png",
+        "alt": "Medicina da Mulher",
+        "description": "Medicina da Mulher",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 7,
+        "icon": "/assets/img/icon/exames/mamografia.png",
+        "alt": "Mamografia Digital",
+        "description": "Mamografia Digital",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 8,
+        "icon": "/assets/img/icon/exames/densiometria.png",
+        "alt": "Densitometria Óssea",
+        "description": "Densitometria Óssea",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 9,
+        "icon": "/assets/img/icon/exames/laboratorio.png",
+        "alt": "Laboratório de Análises",
+        "description": "Laboratório de Análises",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 10,
+        "icon": "/assets/img/icon/exames/histerossalpingografia.png",
+        "alt": "Histerossalpingografia",
+        "description": "Histerossalpingografia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 11,
+        "icon": "/assets/img/icon/exames/ultrassonografia.png",
+        "alt": "Ultrassonografia Geral",
+        "description": "Ultrassonografia com Doppler Colorido e 3D/4D",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 12,
+        "icon": "/assets/img/icon/exames/espirometria.png",
+        "alt": "Espirometria",
+        "description": "Espirometria",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 13,
+        "icon": "/assets/img/icon/exames/tomografiaodontologica.png",
+        "alt": "Tomografia Odontológica",
+        "description": "Tomografia Odontológica",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 14,
+        "icon": "/assets/img/icon/exames/radiologia_odontologica.png",
+        "alt": "Radiologia Odontológica",
+        "description": "Radiologia Odontológica",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 15,
+        "icon": "/assets/img/icon/exames/documentacaoodontologica.png",
+        "alt": "Documentação Odontológica",
+        "description": "Documentação Odontológica",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 16,
+        "icon": "/assets/img/icon/exames/colposcopia.png",
+        "alt": "Colposcopia",
+        "description": "Colposcopia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 17,
+        "icon": "/assets/img/icon/exames/citologiaginecologica.png",
+        "alt": "Citologia Ginecológica",
+        "description": "Citologia Ginecológica",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 18,
+        "icon": "/assets/img/icon/exames/neurologia.png",
+        "alt": "Neurointervenção",
+        "description": "Neurointervenção",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 19,
+        "icon": "/assets/img/icon/exames/teste-ergometrico2.png",
+        "alt": "Teste Ergométrico",
+        "description": "Teste Ergométrico",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 20,
+        "icon": "/assets/img/icon/exames/teste-do-olhinho.png",
+        "alt": "Teste do Olhinho",
+        "description": "Teste do Olhinho",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 21,
+        "icon": "/assets/img/icon/exames/raio-x.png",
+        "alt": "Raio-X",
+        "description": "Raio-X",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 22,
+        "icon": "/assets/img/icon/exames/polissonografia.png",
+        "alt": "Polissonografia",
+        "description": "Polissonografia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 23,
+        "icon": "/assets/img/icon/exames/mrpa.png",
+        "alt": "MRPA",
+        "description": "Monitorização Residencial da Pressão Arterial (MRPA)",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 24,
+        "icon": "/assets/img/icon/exames/Mapa-24-horas.png",
+        "alt": "MAPA 24 Horas",
+        "description": "Monitorização Ambulatorial da Pressão Arterial (MAPA) - 24 Horas",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 25,
+        "icon": "/assets/img/icon/exames/holter-24-horas.png",
+        "alt": "Holter 24 Horas",
+        "description": "Holter (Eletrocardiograma) - 24 Horas",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 26,
+        "icon": "/assets/img/icon/exames/fundo-de-olho.png",
+        "alt": "Fundo de Olho",
+        "description": "Exame de Fundo de Olho",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 27,
+        "icon": "/assets/img/icon/exames/endoscopia.png",
+        "alt": "Endoscopia",
+        "description": "Endoscopia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 28,
+        "icon": "/assets/img/icon/exames/ecocardiograma-com-doppler.png",
+        "alt": "Ecocardiograma com Doppler",
+        "description": "Ecocardiograma com Doppler",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 29,
+        "icon": "/assets/img/icon/exames/colonoscopia.png",
+        "alt": "Colonoscopia",
+        "description": "Colonoscopia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 30,
+        "icon": "/assets/img/icon/exames/biopsias.png",
+        "alt": "Biópsias",
+        "description": "Biópsias",
+        "width": "100px",
+        "height": "auto"
+    },    
+    {
+        "id": 31,
+        "icon": "/assets/img/icon/exames/pneumologista2.png",
+        "alt": "Pneumologia",
+        "description": "Pneumologia"
+    },
+    {
+        "id": 32,
+        "icon": "/assets/img/icon/exames/ginecologista2.png",
+        "alt": "Ginecologia",
+        "description": "Ginecologia"
+    },
+    {
+        "id": 33,
+        "icon": "/assets/img/icon/exames/ortopedia2.png",
+        "alt": "Ortopedia",
+        "description": "Ortopedia"
+    },
+    {
+        "id": 34,
+        "icon": "/assets/img/icon/exames/nutricionista1.png",
+        "alt": "Nutrição",
+        "description": "Nutrição"
+    },
+    {
+        "id": 35,
+        "icon": "/assets/img/icon/exames/psicologo1.png",
+        "alt": "Psicologia",
+        "description": "Psicologia"
+    },
+    {
+        "id": 36,
+        "icon": "/assets/img/icon/exames/urologista.png",
+        "alt": "Urologista",
+        "description": "Urologista"
+    },
+    {
+        "id": 37,
+        "icon": "/assets/img/icon/exames/cirurgiao.png",
+        "alt": "Cirurgião Geral",
+        "description": "Cirurgia Geral"
+    },
+    {
+        "id": 38,
+        "icon": "/assets/img/icon/exames/radiografia.png",
+        "alt": "Radiologia Intervencionista",
+        "description": "Radiologia Intervencionista"
+    },
+    {
+        "id": 39,
+        "icon": "/assets/img/icon/exames/cardiologia2.png",
+        "alt": "Cardiologia",
+        "description": "Cardiologia"
+    },
+    {
+        "id": 40,
+        "icon": "/assets/img/icon/exames/psiquiatra.png",
+        "alt": "Psiquiatria",
+        "description": "Psiquiatria"
+    },
+    {
+        "id": 41,
+        "icon": "/assets/img/icon/exames/clinico-geral.png",
+        "alt": "Clínico Geral",
+        "description": "Clínico Geral"
+    },
+    {
+        "id": 42,
+        "icon": "/assets/img/icon/exames/dermatologista.png",
+        "alt": "Dermatologia",
+        "description": "Dermatologista"
+    },
+    {
+        "id": 43,
+        "icon": "/assets/img/icon/exames/endocrinologista.png",
+        "alt": "Endocrinologia",
+        "description": "Endocrinologista"
+    },
+    {
+        "id": 44,
+        "icon": "/assets/img/icon/exames/gastroenterologista.png",
+        "alt": "Gastroenterologia",
+        "description": "Gastroenterologista"
+    },
+    {
+        "id": 45,
+        "icon": "/assets/img/icon/exames/oftalmologista.png",
+        "alt": "Oftalmologia",
+        "description": "Oftalmologista"
+    },
+    {
+        "id": 46,
+        "icon": "/assets/img/icon/exames/reumatologista.png",
+        "alt": "Reumatologia",
+        "description": "Reumatologista"
+    },
+    {
+        "id": 47,
+        "icon": "/assets/img/icon/exames/neurologista.png",
+        "alt": "Neurologia",
+        "description": "Neurologista"
+    },
+    {
+        "id": 48,
+        "icon": "/assets/img/icon/exames/psicanalise.png",
+        "alt": "Psicanálise",
+        "description": "Psicanálise"
+    },
+    {
+        "id": 49,
+        "icon": "/assets/img/icon/exames/pediatria.png",
+        "alt": "Pediatria",
+        "description": "Pediatria"
+    },
+    {
+        "id": 50,
+        "icon": "/assets/img/icon/exames/fisioterapia.png",
+        "alt": "Fisioterapia",
+        "description": "Fisioterapia"
+    },
+    {
+        "id": 51,
+        "icon": "/assets/img/icon/exames/fonoaudiologia.png",
+        "alt": "Fonoaudiologia",
+        "description": "Fonoaudiologia"
+    },
+    {
+        "id": 52,
+        "icon": "/assets/img/icon/exames/musicoterapia.png",
+        "alt": "Musicoterapia",
+        "description": "Musicoterapia"
+    },
+    {
+        "id": 53,
+        "icon": "/assets/img/icon/exames/terapia-ocupacional.png",
+        "alt": "Terapia Ocupacional",
+        "description": "Terapia Ocupacional"
+    },
+    {
+        "id": 54,
+        "icon": "/assets/img/icon/exames/psicomotricidade.png",
+        "alt": "Psicomotricidade",
+        "description": "Psicomotricidade"
+    },
+    {
+        "id": 55,
+        "icon": "/assets/img/icon/exames/psicopedagogia.png",
+        "alt": "Psicopedagogia",
+        "description": "Psicopedagogia"
+    },
+    {
+        "id": 56,
+        "icon": "/assets/img/icon/exames/neuropsicopedagoga.png",
+        "alt": "Neuropsicopedagogia",
+        "description": "Neuropsicopedagoga"
+    },
+    {
+        "id": 57,
+        "icon": "/assets/img/icon/exames/cirurgião-bucomaxilo-facial.png",
+        "alt": "Cirurgião Bucomaxilo Facial",
+        "description": "Cirurgião Bucomaxilo Facial"
+    },
+    {
+        "id": 58,
+        "icon": "/assets/img/icon/exames/endocrinologista-pediatrico.png",
+        "alt": "Endocrinologista Pediátrico",
+        "description": "Endocrinologista Pediátrico"
+    },
+    {
+        "id": 59,
+        "icon": "/assets/img/icon/exames/neuropediatra.png",
+        "alt": "Neuropediatra",
+        "description": "Neuropediatra"
+    },
+    {
+        "id": 60,
+        "icon": "/assets/img/icon/exames/vascular.png",
+        "alt": "Vascular",
+        "description": "Vascular"
+    },
+    {
+        "id": 61,
+        "icon": "/assets/img/icon/exames/nutrologia.png",
+        "alt": "Nutrologia",
+        "description": "Nutrologia"
+    },
+    {
+        "id": 62,
+        "icon": "/assets/img/icon/exames/medica-da-familia.png",
+        "alt": "Médica da Família",
+        "description": "Médica da Família"
+    },
+    {
+        "id": 63,
+        "icon": "/assets/img/icon/exames/geriatra.png",
+        "alt": "Geriatra",
+        "description": "Geriatra"
+    },
+    {
+        "id": 64,
+        "icon": "/assets/img/icon/exames/otorrinolaringologista.png",
+        "alt": "Otorrinolaringologia",
+        "description": "Otorrinolaringologia"
+    }
+
+    
+]

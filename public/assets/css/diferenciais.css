@@ -1,0 +1,141 @@
+.chose-us-area.item-half .container-full .row > .info {
+    padding: 150px 100px 115px 50px;
+    color: white;
+  }
+  
+  .chose-us-area.item-half .info li {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  .chose-us-area.item-half .info li:first-child,
+  .chose-us-area.item-half .info li:nth-child(2) {
+    margin-top: 0;
+  }
+  
+  .chose-us-area.item-half .info li:nth-child(2n) {
+    padding-left: 15px;
+  }
+  
+  .chose-us-area .info .heading {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .chose-us-area .info li .icon i {
+    display: inline-block;
+    font-size: 50px;
+    color: #0156ab;
+  }
+  
+  .chose-us-area .info li .icon {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+  }
+  
+  .chose-us-area .info li {
+    display: block;
+    margin-bottom: 40px;
+  }
+  
+  .chose-us-area .info li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+  
+  .chose-us-area .info li h4 {
+    font-weight: 600;
+    display: inline-block;
+    color: white;
+  }
+  
+  .chose-us-area .info h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .chose-us-area .info p:last-child {
+    margin-bottom: 0;
+    color: white;
+  }
+  
+  .chose-us-area .info ul {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  .chose-us-area .info li p:last-child {
+    margin: 0;
+  }
+  
+  .chose-us-area .info li .title {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid  #e7e7e7;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  
+  .chose-us-area.item-half .info li {
+    display: flex; /* Usando flexbox para alinhamento */
+    align-items: center; /* Alinhamento vertical dos itens */
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  .chose-us-area.item-half .info li .info {
+    display: flex; /* Usando flexbox dentro do item */
+    align-items: center; /* Alinha o ícone e o texto verticalmente */
+  }
+  
+  .chose-us-area.item-half .info li .info i {
+    font-size: 20px; /* Ajusta o tamanho do ícone */
+    color: #c5f629;   /* Cor verde para os ícones de check */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  .chose-us-area.item-half .info li h4 {
+    font-weight: 600;
+    display: inline-block;
+  }
+  
+  
+  
+  .chose-us-area .appoinment {
+    padding-right: 35px;
+  }
+  
+  /* Para os ícones dentro das listas */
+  .chose-us-area .info li .info i {
+    font-size: 20px; /* Ajusta o tamanho do ícone */
+    color: green;   /* Cor verde para os ícones de check */
+    margin-right: 15px; /* Espaçamento entre o ícone e o texto */
+  }
+  .thumb{
+    background-size: cover;
+  }
+
+  .container-full {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.chose-us-area .info a.btn {
+    background-color: #c5f629;  /* Cor de fundo */
+    color: #056EB8;  /* Cor do texto */
+    border-color: #c5f629;  /* Cor da borda (se houver) */
+  }
+  
+  .chose-us-area .info a.btn:hover {
+    background-color: #a3d32a;  /* Cor de fundo no hover */
+    color: #056EB8;  /* Cor do texto no hover */
+    border-color: #a3d32a;  /* Cor da borda no hover */
+  }
+  
