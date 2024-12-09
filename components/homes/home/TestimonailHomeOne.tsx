@@ -91,7 +91,7 @@ const TestimonailHomeOne = ({style} : any) => {
                             <button onClick={handleNextClick} type="button" className="slick-next slick-arrow">
                                 <i className="fas fa-arrow-right"></i>
                             </button> 
-                            <Slider {...setting} ref={sliderRef} data-wow-delay="0.3s">
+                            {/* <Slider {...setting} ref={sliderRef} data-wow-delay="0.3s">
                                 {testimonial_data.map((item, i)   => 
                                     <div key={i} className="col-xl-12">
                                         <div className={`${style &&  "wraper_style" } testimonail-wraper mb-30`}>
@@ -116,7 +116,7 @@ const TestimonailHomeOne = ({style} : any) => {
                                         </div>
                                     </div>                        
                                 )}                     
-                            </Slider> 
+                            </Slider>  */}
                        </div>
 
 
