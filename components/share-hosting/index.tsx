@@ -1,5 +1,5 @@
 import Breadcrumb from "../common/breadcrumbs/breadcrumb";
-import ChoseAreaHomeOne from "../homes/home/ChoseAreaHomeOne";
+import ChoseAreaHomeOne from "../homes/home/Exames";
 import TestimonailHomeOne from "../homes/home/TestimonailHomeOne";
 import CoreFeatures from "../hosting/CoreFeatures";
 import PriceArea from "../hosting/PriceArea";

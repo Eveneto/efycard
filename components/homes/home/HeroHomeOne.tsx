@@ -1,12 +1,12 @@
-// import Image from "next/image";
-// import server_img from "../../../public/assets/img/slider/server.png";
+import Image from "next/image";
+import server_img from "../../../public/assets/img/slider/cartoes.png";
 interface hero_content_type {
     bg_img: string;
     sub_title: string;
     title: string;
 }
 const hero_content: hero_content_type = {
-    bg_img: "/assets/img/slider/slide-bg.png",
+    bg_img: "/assets/img/slider/banner.png",
     sub_title: "Inclued Every Isometric Illustrations",
     title: "Domain & Hosting In One Platform",
 }
@@ -20,8 +20,8 @@ const HeroHomeOne = () => {
                     <div className="single-slider slider-height" style={{backgroundImage: `url(${bg_img})`}}>
                         <div className="container">
                             <div className="row">
-                                <div className="col-xl-8 offset-xl-2">
-                                    {/* <div className="slider-text pt-180 text-center">
+                                {/* <div className="col-xl-8 offset-xl-2">
+                                    <div className="slider-text pt-180 text-center">
                                         <span className="d-block wow fadeInUp animated" data-wow-delay="0.3s">
                                             {sub_title}
                                         </span>
@@ -32,14 +32,14 @@ const HeroHomeOne = () => {
                                             <a href="#" className="btn">Get Started</a>
                                             <a href="#" className="btn btn-border">Learn More</a>
                                         </div>
-                                    </div> */}
-                                </div>
+                                    </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* <div className="container">
+                <div className="container">
                     <div className="row">
                         <div className="col-12">
                             <div className="slider-bottom-img wow fadeInUp animated" data-wow-delay="1.3s">
@@ -47,7 +47,7 @@ const HeroHomeOne = () => {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
             </section>
         </>

@@ -9,53 +9,25 @@ import service_img_3 from "../../../public/assets/img/icon/s03.png";
 // import service_img_5 from "../../../public/assets/img/icon/s05.png";
 // import service_img_6 from "../../../public/assets/img/icon/s06.png"; 
 // service data 
- const services_data: services_data_type[] = [
+const services_data: services_data_type[] = [
     {
         id: 1,
         img: service_img_1,
         title: "NOSSO OBJETIVO",
-        sm_des: "O EfyCard é muito mais que um cartão de descontos: é uma rede de benefícios pensada para toda a família. Nosso objetivo é proporcionar mais qualidade de vida aos nossos clientes, facilitando o acesso à saúde, ao lazer e aos serviços de bem-estar. Priorizamos um atendimento completo, eficiente e acessível, com benefícios exclusivos em hospitais de excelência, laboratórios renomados e serviços de atendimento 24 horas. CONSULTAS.",
+        sm_des: "O EfyCard é muito mais que um cartão de descontos: é uma rede de benefícios pensada para toda a família. Nosso objetivo é proporcionar mais qualidade de vida aos nossos clientes, facilitando o acesso à saúde, ao lazer e aos serviços de bem-estar. Priorizamos um atendimento completo, eficiente e acessível, com benefícios exclusivos em hospitais de excelência, laboratórios renomados e serviços de atendimento 24 horas. CONSULTAS.<br /><br />",
     },
     {
         id: 2,
         img: service_img_2,
         title: "CONSULTAS",
-        sm_des: "O EfyCard oferece acesso a uma ampla rede de médicos, laboratórios, hospitais, academias, restaurantes, seguros e assistência funeral, com descontos exclusivos. Com tecnologia avançada e um aplicativo intuitivo, você gerencia consultas, acompanha benefícios e monitora seus gastos de forma prática. Seja para consultas, exames ou emergências, garantimos soluções completas, personalizadas e econômicas, focadas no bem-estar da sua família.",
+        sm_des: "O EfyCard oferece acesso a uma ampla rede de médicos, laboratórios, hospitais, academias, restaurantes, seguros e assistência funeral, com descontos exclusivos. Com tecnologia avançada e um aplicativo intuitivo, você gerencia consultas, acompanha benefícios e monitora seus gastos de forma prática. Seja para consultas, exames ou emergências, garantimos soluções completas, personalizadas e econômicas, focadas no bem-estar da sua família.<br /><br />",
     },
     {
         id: 3,
         img: service_img_3,
         title: "ENDEREÇOS",
-        sm_des: (
-            <span
-                dangerouslySetInnerHTML={{
-                    __html: "Caruaru:<br />AV PROFESSOR JOSE LEAO, 425 - LOJA 19, MAURICIO DE NASSAU, CARUARU-PE<br />CEP: 55012-070<br />(81) 98942-7705<br /><br />Recife:<br />RUA JOAQUIM NABUCO, 398 - GRAÇAS, RECIFE-PE<br />CEP: 52011-005<br />(81) 98942-7778 / (81) 3136-9750"
-                }}
-            />
-        ),
+        sm_des: "Caruaru:<br />AV PROFESSOR JOSE LEAO, 425 - LOJA 19, MAURICIO DE NASSAU, CARUARU-PE<br />CEP: 55012-070<br />(81) 98942-7705<br /><br />Recife:<br />RUA JOAQUIM NABUCO, 398 - GRAÇAS, RECIFE-PE<br />CEP: 52011-005<br />(81) 98942-7778 / (81) 3136-9750"
     },
-
-    
-    
-    // {
-    //     id: 4,
-    //     img: service_img_4,
-    //     title: "Cloud Hosting",
-    //     sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    // },
-    // {
-    //     id: 5,
-    //     img: service_img_5,
-    //     title: "Dedicated Hosting",
-    //     sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    // },
-    // {
-    //     id: 5,
-    //     img: service_img_6,
-    //     title: "Domain Name",
-    //     sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
-    // },
-    
  ]
 
  interface service_content_type {
@@ -69,7 +41,7 @@ import service_img_3 from "../../../public/assets/img/icon/s03.png";
  const {title, sub_title} = service_content
 
  
-const ServicesHomeOne = () => { 
+ const ServicesHomeOne = () => { 
     return (
         <>
             <section className="services-area pt-115 pb-95">
@@ -96,8 +68,8 @@ const ServicesHomeOne = () => {
                                     </div>
                                     <div className="services-content">
                                         <h3><Link href="#">{item.title}</Link></h3>
-                                        <p>{item.sm_des}</p>
-                                        <a className="services-link" href="#"><i className="far fa-chevron-right"></i></a>
+                                        <p dangerouslySetInnerHTML={{ __html: item.sm_des }}></p> {/* Uso do dangerouslySetInnerHTML */}
+                                        {/* <a className="services-link" href="#"><i className="far fa-chevron-right"></i></a> */}
                                     </div>
                                 </div>
                             </div>                        

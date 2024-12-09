@@ -175,7 +175,7 @@ label {
 	white-space: nowrap;
 	border-radius: 30px;
 	border: 2px solid transparent;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 .btn i {
 	margin-right: 8px;
@@ -354,7 +354,8 @@ label {
 	color: black;
 	padding: 20px 0;
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 /* index 2 style */
 .main-menu ul li a.arrow-down::after {
@@ -900,6 +901,7 @@ select.focus, select:active.focus, select.active.focus {
 	padding: 0 25px;
 	margin-bottom: 20px;
 	text-align: left;
+	color: black;
 }
 .services-box:hover .services-icon img {
 	-webkit-transform: translate3d(0,-10px,0);
@@ -3460,6 +3462,135 @@ a{
 .services-icon {
     margin-right: 10px; /* Adiciona espaçamento entre a imagem e o título */
 }
+
+/* Barra Azul */
+.top-bar {
+    background-color: #0156ab; /* Azul */
+    color: white; /* Texto branco */
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-bar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	margin: 0 30px 0 30px;
+}
+.top-bar .social{
+	margin-left: 50px;
+	border-right: 2px solid
+}
+
+.top-bar .social a {
+    color: white;
+    font-size: 28px;
+	border-right: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.top-bar .contact-info {
+    display: flex;
+    align-items: center;
+	margin-right: 150px;
+	font-size: 15px;
+}
+
+.top-bar .contact-info span {
+    color: white;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .contact-info .separator {
+    margin: 0 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.top-bar i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+}
+
+.mb-custom{
+	margin-bottom: 50px !important;
+}
+
+h3.custom-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0156AB; /* Azul - substitua pela cor desejada */
+    position: relative;
+    font-size: 32px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;
+    padding: 0 20px; /* Espaçamento lateral */
+}
+
+h3.custom-title::before,
+h3.custom-title::after {
+    content: "•••"; /* Pontinhos verdes */
+    font-size: 24px; /* Ajuste o tamanho dos pontinhos conforme necessário */
+    color: #C5F629; /* Cor verde para os pontinhos */
+    padding: 0 10px; /* Distância entre os pontinhos e o título */
+}
+.differential-item {
+	position: relative;
+	padding-left: 30px; /* Espaço para o ícone */
+	margin-bottom: 20px; /* Espaço entre os itens */
+  }
+  
+  .differential-item i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-weight: 900;
+	font-size: 20px;
+	color: #28a745; /* Cor verde */
+	margin-top: 6px; /* Ajusta a posição do ícone em relação ao texto */
+  }
+  
+  .differential-item h4 {
+	margin-left: 30px;
+	color: white; /* Espaço para o título */
+  }
+
+  .diferenciais_txt h2, p{
+	color: white;
+  }
+
+  .rede h3{
+	color: #0156AB;
+  }
+  .rede p{
+	color: black;
+  }
+  .icon-container i{
+	display: inline-block;
+    color: #C5F629;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .price-body h4{
+	text-transform: uppercase;
+	color: #0156AB;
+  }
+
+  .pricin-title p{
+	color: black;
+  }
+
+  .solicite-txt p{
+	color: black;
+	font-size: 20px;
+  }
+  
+
+
+
 
   
 

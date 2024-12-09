@@ -1,58 +1,21 @@
-import testimonial_data_type from "../types/testimonial-data-type";
- 
-import testimonial_avatart_1 from "../../public/assets/img/author/author.png";
-import testimonial_avatart_2 from "../../public/assets/img/author/author1.png"; 
-
-
-const testimonial_data: testimonial_data_type[] = [
+const price_data = [
     {
         id: 1,
-        avatar: testimonial_avatart_1,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Design Quality ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
+        icon: "fas fa-percentage", // Ícone Font Awesome para "usuário médico"
+        title: "Descontos de até 60% na rede credenciada",
+        sm_des: "Descontos de até 60% na rede credenciada.",
     },
     {
         id: 2,
-        avatar: testimonial_avatart_2,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Development ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
+        icon: "fas fa-id-badge", // Ícone Font Awesome para "dente"
+        title: "Rede credenciada diferenciada<br><br>",
+        sm_des: "Descontos exclusivos em odontologia.",
     },
     {
         id: 3,
-        avatar: testimonial_avatart_1,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Design Quality ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
+        icon: "fas fa-heart", // Ícone Font Awesome para "hospital"
+        title: "Crédito-saúde<br><br><br>",
+        sm_des: "<br>Seguro de vida acessível e confiável.",
     },
-    {
-        id: 4,
-        avatar: testimonial_avatart_2,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Development ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
-    },
-    {
-        id: 5,
-        avatar: testimonial_avatart_1,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Design Quality ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
-    },
-    {
-        id: 6,
-        avatar: testimonial_avatart_2,
-        name: "Rosalina D. Williamson",
-        job_title: "Founder, Google",
-        title: "“ Hosting ”",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi.",
-    },
-
-]
-export default testimonial_data
+];
+export default price_data;

@@ -3,7 +3,7 @@ import HeroHomeThree from "./HeroHomeThree";
 import DomainSearchHomeTwo from "../home-2/DomainSearchHomeTwo";
 import CoreFeaturesHomeThree from "./CoreFeaturesHomeThree";
 import SubscriptinHomeThree from "./SubscriptinHomeThree";
-import ServicesHomeOne from "../home/ServicesHomeOne";
+import ServicesHomeOne from "../home/QuemSomos";
 import PricingHomeTwo from "../home-2/PricingHomeTwo";
 import IntegrationsHomeThree from "./IntegrationsHomeThree";
 import TestimonailHomeOne from "../home/TestimonailHomeOne";

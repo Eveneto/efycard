@@ -1,4 +1,4 @@
-import ChoseAreaHomeOne from "../homes/home/ChoseAreaHomeOne";
+import ChoseAreaHomeOne from "../homes/home/Exames";
 import PriceArea from "../hosting/PriceArea";
 import FooterOne from "../layout/footers/FooterOne";
 import HeaderTwo from "../layout/headers/header-2";

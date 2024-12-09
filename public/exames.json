@@ -442,7 +442,118 @@
         "icon": "/assets/img/icon/exames/otorrinolaringologista.png",
         "alt": "Otorrinolaringologia",
         "description": "Otorrinolaringologia"
+    },
+    {
+        "id": 65,
+        "icon": "/assets/img/icon/exames/acupuntura.png",
+        "alt": "Acupuntura",
+        "description": "Acupuntura",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 66,
+        "icon": "/assets/img/icon/exames/aromaterapia.png",
+        "alt": "Aromaterapia",
+        "description": "Aromaterapia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 67,
+        "icon": "/assets/img/icon/exames/terapia-floral.png",
+        "alt": "Terapia Floral",
+        "description": "Terapia Floral",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 68,
+        "icon": "/assets/img/icon/exames/ventosaterapia.png",
+        "alt": "Ventosaterapia",
+        "description": "Ventosaterapia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 69,
+        "icon": "/assets/img/icon/exames/ozonioterapia.png",
+        "alt": "Ozonioterapia",
+        "description": "Ozonioterapia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 70,
+        "icon": "/assets/img/icon/exames/fitoterapia.png",
+        "alt": "Fitoterapia",
+        "description": "Fitoterapia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 71,
+        "icon": "/assets/img/icon/exames/detox-ionico.png",
+        "alt": "Detox Iônico",
+        "description": "Detox Iônico",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 72,
+        "icon": "/assets/img/icon/exames/manta-termica.png",
+        "alt": "Manta Térmica",
+        "description": "Manta Térmica",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 73,
+        "icon": "/assets/img/icon/exames/drenagem-linfatica-com-manta-termica-e-maquina.png",
+        "alt": "Drenagem Linfática com Manta Térmica e Máquina",
+        "description": "Drenagem Linfática com Manta Térmica e Máquina",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 74,
+        "icon": "/assets/img/icon/exames/auriculoterapia.png",
+        "alt": "Auriculoterapia",
+        "description": "Auriculoterapia",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 75,
+        "icon": "/assets/img/icon/exames/drenagem-linfatica-manual.png",
+        "alt": "Drenagem Linfática Manual",
+        "description": "Drenagem Linfática Manual",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 76,
+        "icon": "/assets/img/icon/exames/liberacao-miofascial.png",
+        "alt": "Liberação Miofascial",
+        "description": "Liberação Miofascial",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 77,
+        "icon": "/assets/img/icon/exames/massagem-relaxante-pedras-quentes.png",
+        "alt": "Massagem Relaxante com Pedras Quentes",
+        "description": "Massagem Relaxante com Pedras Quentes",
+        "width": "100px",
+        "height": "auto"
+    },
+    {
+        "id": 78,
+        "icon": "/assets/img/icon/exames/massagem-relaxante.png",
+        "alt": "Massagem Relaxante",
+        "description": "Massagem Relaxante",
+        "width": "100px",
+        "height": "auto"
     }
-
     
 ]

@@ -17,7 +17,7 @@ const price_data: price_data_type[] = [
         id: 1,
         icon: "fas fa-user-md", // Ícone Font Awesome para "usuário médico"
         title: "Rede Credenciada",
-        sm_des: "<br>Serviços ambulatoriais com baixo custo.",
+        sm_des: "Serviços ambulatoriais com baixo custo.",
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ const price_data: price_data_type[] = [
         id: 3,
         icon: "fas fa-hospital-alt", // Ícone Font Awesome para "hospital"
         title: "Seguro de Vida",
-        sm_des: "<br>Seguro de vida acessível e confiável.",
+        sm_des: "Seguro de vida acessível e confiável.",
     },
 ]
 
@@ -47,21 +47,21 @@ const PricingHomeOne = () => {
                         </div>
                     </div>
                     <div className="row">
-                        {price_data.map((item, i) =>
-                            <div key={i} className="col-xl-4 col-lg-4 col-md-6">
+                        {price_data.map((item, i) => 
+                            <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
                                 <div className="pricing-wrapper white-bg text-center mb-30 wow fadeInUp animated" data-wow-delay="0.3s">
                                     <div className="price-icon mb-15">
-                                        {/* Usando o ícone Font Awesome */}
                                         <i className={item.icon}></i>
                                     </div>
                                     <div className="pricin-title mb-20">
-                                        <h3>{item.title}</h3>
+                                        <h3 className={item.id === 1 || item.id === 3 ? "mb-custom" : ""}>{item.title}</h3>
                                         <p dangerouslySetInnerHTML={{ __html: item.sm_des }}></p>
                                     </div>
                                 </div>
                             </div>
                         )}
                     </div>
+
                     {/* <div className="row">
                         <div className="col-12">
                             <div className="pricing-more-link text-center mt-50">

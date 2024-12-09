@@ -3,37 +3,49 @@ interface MenuItem {
   title: string;
   link: string;
   has_dropdown: boolean;
-}[];
+}
 
 const menu_data: MenuItem[] = [
   {
     id: 1,
     title: "Inicial",
-    link: "/",
+    link: "#",
     has_dropdown: false,
   },
   {
     id: 2,
     title: "Efycard",
-    link: "/efycard",
+    link: "#",
     has_dropdown: false,
   },
   {
     id: 3,
     title: "Serviços",
-    link: "/servicos",
+    link: "#",
     has_dropdown: false,
   },
   {
     id: 4,
     title: "Seja Um Vendedor",
-    link: "/seja-um-vendedor",
+    link: "#",
     has_dropdown: false,
   },
   {
     id: 5,
     title: "Contato",
-    link: "/contato",
+    link: "#",
+    has_dropdown: false,
+  },
+  {
+    id: 6,
+    title: "Área Restrita",
+    link: "#",
+    has_dropdown: false,
+  },
+  {
+    id: 7,
+    title: "Peça Já o Seu Cartão",
+    link: "#",
     has_dropdown: false,
   },
 ];
