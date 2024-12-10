@@ -3,7 +3,7 @@
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500,700');
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 body {
@@ -860,7 +860,7 @@ select.focus, select:active.focus, select.active.focus {
 }
 /* section title */
 .section-title h2 {
-	font-size: 60px;
+	font-size: 50px;
 	margin-bottom: 10px;
 	color: #0156AB;
 }
@@ -3576,6 +3576,14 @@ h3.custom-title::after {
     font-size: 24px; /* Ajuste o tamanho dos pontinhos conforme necessário */
     color: #C5F629; /* Cor verde para os pontinhos */
     padding: 0 10px; /* Distância entre os pontinhos e o título */
+}
+
+@media only screen and (max-width: 500px){
+	h3.custom-title::before,
+	h3.custom-title::after {
+		content: ""; /* Pontinhos verdes */
+
+	}
 }
 .differential-item {
 	position: relative;
