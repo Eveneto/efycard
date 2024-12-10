@@ -16,11 +16,11 @@ const NavMenu = () => {
             </Link>
             {item.has_dropdown && 
               <ul className="submenu">
-                {/* {item.sub_menus?.map((sub, i) => (
+                {item.sub_menus?.map((sub, i) => (
                   <li key={i}>
                     <Link href={sub.link}>{sub.title}</Link>
                   </li>
-                ))} */}
+                ))}
               </ul>            
             }
           </li>

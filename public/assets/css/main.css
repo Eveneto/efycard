@@ -654,8 +654,14 @@ input.main-search-input:-ms-input-placeholder {
 .slider-height {
 	min-height: 960px;
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover 
+	background-position: center;
+	background-size: cover ;
+}
+
+@media only screen and (max-width: 500px){
+	.slider-height{
+		background-size: 100% auto;
+	}
 }
 .hero-slider {
 	/* min-height: 950px; */

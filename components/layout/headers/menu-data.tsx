@@ -3,7 +3,11 @@ interface MenuItem {
   title: string;
   link: string;
   has_dropdown: boolean;
-}
+  sub_menus?: {
+    link: string;
+    title: string;
+  }[];
+}[];
 
 const menu_data: MenuItem[] = [
   {
