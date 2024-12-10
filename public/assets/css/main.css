@@ -3643,6 +3643,30 @@ h3.custom-title::after {
 	font-size: 20px;
   }
   
+  /* Estilo para a seção de especialidades com espaçamento em cima e embaixo */
+	.specialties-background {
+		position: relative;
+		width: 100%;
+		min-height: 100vh; /* Garantir que a altura ocupe toda a tela */
+		padding-top: 50px; /* Espaçamento de 50px em cima e embaixo */
+	}
+
+	.specialties-background::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 100vw;
+		margin-left: -50vw;
+		height: 100%;
+		background-color: #F0F4FF;
+		z-index: -1;
+	}
+
+	.mt-50{
+		margin-top: 50px;
+	}
+
 
 
 

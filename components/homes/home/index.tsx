@@ -27,15 +27,15 @@ const HomeOne = () => {
         {/* <FAQHomeOne /> */}
         <Exames />
         <Diferenciais />
-        {/* <Dicas /> */}
         <RedeCompleta />
         <Beneficios />
         <Solicite />
+        <Dicas />
         {/* <TestimonailHomeOne /> */}
-        {/* <NewsFeedHomeOne />
-        <BrandHomeOne /> */}
+        <NewsFeedHomeOne />
+        <BrandHomeOne />
       </main>
-      {/* <FooterOne /> */}
+      <FooterOne />
     </>
   );
 };

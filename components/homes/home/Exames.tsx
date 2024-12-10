@@ -84,31 +84,34 @@ const CoreFeaturesHomeThree = () => {
                 </div>
 
                 {/* Especialidades */}
-                <div className="row">
-                    <div className="col-xl-12">
-                        <h3 className="custom-title">{core_features_content.title_specialties}</h3>
-                    </div>
-                    {specialties.map((item, i) => (
-                        <div key={i} className="col-xl-4 col-lg-4 col-md-6">
-                            <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
-                                <div className="services-content service-content-three d-flex align-items-center">
-                                    <div className="services-icon mb-35">
-                                        <Image
-                                            src={item.icon}
-                                            alt={item.title}
-                                            width={100}
-                                            height={100}
-                                        />
+                <div className="specialties-background">
+                    <div className="row">
+                        <div className="col-xl-12">
+                            <h3 className="custom-title">{core_features_content.title_specialties}</h3>
+                        </div>
+                        {specialties.map((item, i) => (
+                            <div key={i} className="col-xl-4 col-lg-4 col-md-6">
+                                <div className="services-box style_3 mb-60 wow fadeInUp p-3" data-wow-delay="0.3s">
+                                    <div className="services-content service-content-three d-flex align-items-center">
+                                        <div className="services-icon mb-35">
+                                            <Image
+                                                src={item.icon}
+                                                alt={item.title}
+                                                width={100}
+                                                height={100}
+                                            />
+                                        </div>
+                                        <h4>{item.description}</h4>
                                     </div>
-                                    <h4>{item.description}</h4>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
 
+
                 {/* Medicina Complementar / Estética */}
-                <div className="row mb-50">
+                <div className="row mb-50 mt-50">
                     <div className="col-xl-12">
                         <h3 className="custom-title">{core_features_content.title_complementary_medicine}</h3>
                     </div>
