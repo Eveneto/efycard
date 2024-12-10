@@ -35,7 +35,7 @@ const HomeOne = () => {
         <NewsFeedHomeOne />
         <BrandHomeOne />
       </main>
-      <FooterOne />
+      {/* <FooterOne /> */}
     </>
   );
 };

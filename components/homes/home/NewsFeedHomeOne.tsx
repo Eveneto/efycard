@@ -11,9 +11,9 @@ const NewsFeedHomeOne = () => {
                     <div className="row ">
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-70">
-                                <h2>News Feeds</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h2>Transforme Sua Saúde com o EfyCard</h2>
+                                <p style={{color: "black"
+                                }}>Descubra como o EfyCard pode revolucionar sua experiência de saúde, oferecendo economia, qualidade e conveniência em um só cartão. Acesse nosso blog e conheça todos os benefícios que você e sua família podem aproveitar!</p>
                             </div>
                         </div>
                     </div>
@@ -25,15 +25,10 @@ const NewsFeedHomeOne = () => {
                                         <Link href="#"><Image src={item.news_thumb} alt="theme-pure" /></Link>
                                     </div>
                                     <div className="news-feed-info">
-                                        <div className="news-feed-mata">
-                                            <ul>
-                                                <li><Image src={item.avatar} alt="theme-pure" /> <span><a href="#">{item.name}</a></span></li>
-                                                <li><span><i className="fas fa-calendar-week"></i> {item.date}</span></li>
-                                            </ul>
-                                        </div>
                                         <div className="news-feed-titles">
                                             <h4><a href="#">{item.title}</a></h4>
-                                            <p>{item.news_blog}</p>
+                                            <p style={{color: "#666666"
+                                }}>{item.news_blog}</p>
                                         </div>
                                     </div>
                                 </div>

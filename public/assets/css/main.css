@@ -1363,6 +1363,7 @@ span.price-colors {
 }
 .news-feed-img img {
 	max-width: 100%;
+	height: max-content;
 }
 .news-feed-img {
 	overflow: hidden;
@@ -3666,6 +3667,121 @@ h3.custom-title::after {
 	.mt-50{
 		margin-top: 50px;
 	}
+
+	/* Estilo para o título do novo conteúdo */
+	.prevention-info .section-title {
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 15px;
+		color: white; /* Azul para destacar */
+	}
+
+	/* Estilo para a descrição do novo conteúdo */
+	.section-description {
+		font-size: 16px;
+		color: #333; /* Cor de texto padrão */
+		line-height: 1.6; /* Melhor legibilidade */
+		margin-bottom: 30px; /* Espaçamento abaixo */
+	}
+
+	/* Estilos para o rodapé */
+	.footer-container {
+		background-color: #0c2b4b;
+		color: white;
+		padding: 50px 0;
+		font-family: 'Arial', sans-serif;
+	}
+
+	/* Container geral */
+	.footer-container .row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	/* Estilos para as colunas */
+	.footer-column {
+		flex: 1 1 30%;
+		margin: 10px;
+	}
+
+	/* Títulos das colunas */
+	.footer-column h4 {
+		font-size: 22px;
+		color: #00c3ff;
+		margin-bottom: 20px;
+	}
+
+	/* Estilo de listas de links */
+	.footer-column ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.footer-column ul li {
+		margin-bottom: 10px;
+	}
+
+	.footer-column ul li a {
+		color: white;
+		text-decoration: none;
+		font-size: 16px;
+		transition: color 0.3s ease;
+	}
+
+	.footer-column ul li a:hover {
+		color: #00c3ff;
+	}
+
+	/* Estilo para o título de contatos e endereços */
+	.contact-info h5 {
+		font-size: 18px;
+		color: #00c3ff;
+		margin-bottom: 10px;
+	}
+
+	/* Adiciona um ícone para cada informação */
+	.contact-info ul li i {
+		margin-right: 10px;
+	}
+
+	/* Estilo para a área FAQ */
+	.faq-box {
+		background-color: #1f3c57;
+		padding: 20px;
+		border-radius: 5px;
+	}
+
+	.faq-box .question {
+		background-color: #263c56;
+		padding: 15px;
+		margin: 10px 0;
+		border-radius: 5px;
+	}
+
+	.faq-box .question h6 {
+		color: white;
+		font-size: 18px;
+		margin: 0;
+	}
+
+	.faq-box .question p {
+		display: none;
+		color: white;
+		margin-top: 10px;
+	}
+
+	.faq-box .question.active p {
+		display: block;
+	}
+
+	/* Responsividade para telas pequenas */
+	@media (max-width: 768px) {
+		.footer-column {
+			flex: 1 1 100%;
+		}
+	}
+
 
 
 
