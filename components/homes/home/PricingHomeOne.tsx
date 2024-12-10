@@ -54,7 +54,7 @@ const PricingHomeOne = () => {
                                         <i className={item.icon}></i>
                                     </div>
                                     <div className="pricin-title mb-20">
-                                        <h3 className={item.id === 1 || item.id === 3 ? "mb-custom" : ""}>{item.title}</h3>
+                                        <h3 className={item.id === 3 || item.id === 1 ? "mb-custom" : ""}>{item.title}</h3>
                                         <p dangerouslySetInnerHTML={{ __html: item.sm_des }}></p>
                                     </div>
                                 </div>

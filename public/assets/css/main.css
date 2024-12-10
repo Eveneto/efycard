@@ -2,6 +2,10 @@
 /* CSS Index ----------------------------------- 1. Theme default css 2. header 3. slider 4. about-area 5. features-box 6. department 7. team 8. video-area 9. counter 10. footer */
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Rubik:400,500,700');
+* {
+    outline: 1px solid red;
+}
+
 body {
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
@@ -65,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 600;
-	text-transform: normal;
+	text-transform: uppercase;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: inherit;
@@ -2410,6 +2414,12 @@ ul.adress li span {
 	letter-spacing: -.5px;
 	color: #000099;
 }
+
+@media only screen and (max-width: 500px){
+	.service-content-three{
+		flex-wrap: wrap;
+	}
+}
 .services-content ul li {
 	margin-bottom: 14px;
 	color: #7d859f;
@@ -3448,7 +3458,7 @@ a{
 	color: #C5F629;
 }
 .pricin-title h3{
-	font-size: 30px;
+	font-size: 24px;
     margin-bottom: 15px;
     color: #014AA1;
 }
@@ -3475,31 +3485,33 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-	margin: 0 30px 0 30px;
+    max-width: 100%; /* Garante que não ultrapasse a largura da viewport */
+    padding: 0 15px; /* Substitui as margens externas por espaçamento interno */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
 }
-.top-bar .social{
-	margin-left: 50px;
-	border-right: 2px solid
+
+.top-bar .social {
+    padding-right: 15px; /* Substitui margem pela borda */
+    border-right: 2px solid white; /* Divisor */
 }
 
 .top-bar .social a {
     color: white;
     font-size: 28px;
-	border-right: white;
-    margin-right: 15px;
+    margin-right: 15px; /* Espaçamento entre ícones */
     text-decoration: none;
 }
 
 .top-bar .contact-info {
     display: flex;
     align-items: center;
-	margin-right: 150px;
-	font-size: 15px;
+    padding-left: 15px; /* Substitui margem por espaçamento interno */
+    font-size: 15px;
 }
 
 .top-bar .contact-info span {
     color: white;
-    margin: 0 10px;
+    margin: 0 10px; /* Espaçamento entre elementos */
     display: flex;
     align-items: center;
 }
@@ -3512,6 +3524,35 @@ a{
 .top-bar i {
     margin-right: 5px; /* Espaço entre o ícone e o texto */
 }
+
+/* Ajustes para dispositivos menores */
+@media (max-width: 768px) {
+    .top-bar .container-fluid {
+        flex-direction: column; /* Alinha os elementos verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .top-bar .social {
+        padding-right: 0; /* Remove o espaçamento lateral */
+        margin-bottom: 10px; /* Espaçamento entre social e contact-info */
+        border-right: none; /* Remove a borda divisória */
+    }
+
+    .top-bar .contact-info {
+        padding-left: 0; /* Remove o espaçamento lateral */
+        font-size: 13px; /* Reduz o tamanho da fonte */
+    }
+
+    .top-bar .contact-info span {
+        margin: 5px 0; /* Adiciona espaçamento vertical entre spans */
+    }
+}
+
+/* Prevenir overflow global */
+body {
+    overflow-x: hidden;
+}
+
 
 .mb-custom{
 	margin-bottom: 50px !important;
