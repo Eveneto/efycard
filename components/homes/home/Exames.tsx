@@ -47,7 +47,7 @@ const CoreFeaturesHomeThree = () => {
     const complementaryMedicine = coreFeatures.filter((item) => item.id >= 65);
 
     return (
-        <section className="core-features-area pt-115 pb-50">
+        <section className="core-features-area pt-115 pb-50" id="servicos">
             <div className="container">
                 {/* Título e descrição principal */}
                 <div className="row align-items-center mb-40">

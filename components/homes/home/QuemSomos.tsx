@@ -44,7 +44,7 @@ const services_data: services_data_type[] = [
  const ServicesHomeOne = () => { 
     return (
         <>
-            <section className="services-area pt-115 pb-95">
+            <section className="services-area pt-115 pb-95" id="quem-somos">
                 <div className="container">
                     <div className="row align-items-center mb-40">
                         <div className="col-xl-6 col-lg-8">

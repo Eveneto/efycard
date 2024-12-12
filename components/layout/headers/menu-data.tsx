@@ -19,13 +19,13 @@ const menu_data: MenuItem[] = [
   {
     id: 2,
     title: "Efycard",
-    link: "#",
+    link: "#quem-somos",
     has_dropdown: false,
   },
   {
     id: 3,
     title: "Serviços",
-    link: "#",
+    link: "#servicos",
     has_dropdown: false,
   },
   {
@@ -37,7 +37,7 @@ const menu_data: MenuItem[] = [
   {
     id: 5,
     title: "Contato",
-    link: "#",
+    link: "#contato",
     has_dropdown: false,
   },
   {

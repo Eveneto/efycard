@@ -2190,13 +2190,14 @@ ul.cat li a:hover {
 }
 /* footer area */
 .footer-sing-up h5{
-	color:#707eac 
+	color:#0473F8 
 }
 .footer-left-info h5{
-	color: #d1d2d6;
+	color: #0473F8 ;
 }
 .footer-sing-up h5, .footer-left-info h5{
 	margin-bottom: 25px;
+	font-size: 22px;
 }
 .footer-sing-up h2, .footer-left-info h2{
 	color: #fff;
@@ -3781,6 +3782,47 @@ h3.custom-title::after {
 			flex: 1 1 100%;
 		}
 	}
+
+	.endereco{
+		font-size: 17px;
+	}
+
+	.footer-right-box {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.benefits-section {
+		 /* Cor de fundo específica para Benefícios */
+		padding: 15px;
+		width: 48%;
+	}
+	
+	.faq-section {
+		 /* Cor de fundo específica para FAQ */
+		padding: 15px;
+		width: 48%;
+	}
+
+	.faq-item {
+		background-color: #fff;
+		padding: 10px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		border-radius: 5px;
+		transition: background-color 0.3s ease;
+	}
+	
+	.faq-item:hover {
+		background-color: #f1f1f1;
+	}
+	
+	.faq-item p {
+		padding-top: 10px;
+		margin: 0;
+	}
+	
+	
 
 
 
