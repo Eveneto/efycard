@@ -114,7 +114,7 @@ const FooterOne = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="footer-left-info mb-30">
                                 <h5> {price_title}</h5>
-                                <div className="row" style={{width: "900px"}}>
+                                <div className="row" style={{width: ""}}>
                                     {addresses.map((item, index) => (
                                         <div key={index} className="col-md-6">
                                             <h6>{item.city}</h6>
