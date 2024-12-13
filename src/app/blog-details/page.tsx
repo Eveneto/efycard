@@ -1,4 +1,4 @@
-import BlogDetails from "../../../components/blog-details";
+import BlogDetails from "../../../components/blog-details/[id]";
 
 
 const index = () => {

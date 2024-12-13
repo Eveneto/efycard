@@ -3821,6 +3821,95 @@ h3.custom-title::after {
 		padding-top: 10px;
 		margin: 0;
 	}
+
+	.post-text-detail p{
+		color: black;
+	}
+
+	/* Estilo para a seção de informações */
+.info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o título do artigo */
+.article-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o texto do artigo */
+.article-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o título das seções */
+.section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000; /* Cor do título das seções */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para a lista de benefícios */
+.benefits-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+/* Estilo para os itens da lista de benefícios */
+.benefit-item {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+/* Estilo para o texto de conclusão */
+.conclusion-text {
+    font-size: 1em;
+    /* font-weight: bold; */
+    color: #000;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+   
+}
+
+/* Estilo para a lista de benefícios com estilo de ícones */
+.benefit-item strong {
+    font-weight: bold;
+    color: #0156ab;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 1.6rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .article-text, .benefit-item {
+        font-size: 1rem;
+    }
+}
+
+strong{
+	color: #0156ab;
+}
+
 	
 	
 
