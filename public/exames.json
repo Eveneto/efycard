@@ -3,241 +3,210 @@
         "id": 1,
         "icon": "/assets/img/icon/exames/ressonancia.png",
         "alt": "Ressonância Magnética",
-        "description": "Ressonância Magnética de Alto Campo",
-        "width": "100px",
-        "height": "auto"
+        "description": "Ressonância Magnética de Alto Campo"
+        
     },
     {
         "id": 2,
         "icon": "/assets/img/icon/exames/radiologia.png",
         "alt": "Radiologia Intervencionista",
-        "description": "Radiologia Intervencionista Punções e Drenagens",
-        "width": "100px",
-        "height": "auto"
+        "description": "Radiologia Intervencionista Punções e Drenagens"
+        
     },
     {
         "id": 3,
         "icon": "/assets/img/icon/exames/puncoes3.png",
         "alt": "Punções",
-        "description": "Punções Guiadas por Ultrassonografia de Mama, Tireoide e Próstata",
-        "width": "100px",
-        "height": "auto"
+        "description": "Punções Guiadas por Ultrassonografia de Mama, Tireoide e Próstata"
+        
     },
     {
         "id": 4,
         "icon": "/assets/img/icon/exames/tomografia.png",
         "alt": "Tomografia Computadorizada",
-        "description": "Tomografia Computadorizada Multislice",
-        "width": "100px",
-        "height": "auto"
+        "description": "Tomografia Computadorizada Multislice"
+        
     },
     {
         "id": 5,
         "icon": "/assets/img/icon/exames/radiologia_digital.png",
         "alt": "Radiologia Digital",
-        "description": "Radiologia Digital",
-        "width": "100px",
-        "height": "auto"
+        "description": "Radiologia Digital"
+        
     },
     {
         "id": 6,
         "icon": "/assets/img/icon/exames/medicina_mulher.png",
         "alt": "Medicina da Mulher",
-        "description": "Medicina da Mulher",
-        "width": "100px",
-        "height": "auto"
+        "description": "Medicina da Mulher"
+        
     },
     {
         "id": 7,
         "icon": "/assets/img/icon/exames/mamografia.png",
         "alt": "Mamografia Digital",
-        "description": "Mamografia Digital",
-        "width": "100px",
-        "height": "auto"
+        "description": "Mamografia Digital"
+    
     },
     {
         "id": 8,
         "icon": "/assets/img/icon/exames/densiometria.png",
         "alt": "Densitometria Óssea",
-        "description": "Densitometria Óssea",
-        "width": "100px",
-        "height": "auto"
+        "description": "Densitometria Óssea"
+        
     },
     {
         "id": 9,
         "icon": "/assets/img/icon/exames/laboratorio.png",
         "alt": "Laboratório de Análises",
-        "description": "Laboratório de Análises",
-        "width": "100px",
-        "height": "auto"
+        "description": "Laboratório de Análises"
+        
     },
     {
         "id": 10,
         "icon": "/assets/img/icon/exames/histerossalpingografia.png",
         "alt": "Histerossalpingografia",
-        "description": "Histerossalpingografia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Histerossalpingografia"
+        
     },
     {
         "id": 11,
         "icon": "/assets/img/icon/exames/ultrassonografia.png",
         "alt": "Ultrassonografia Geral",
-        "description": "Ultrassonografia com Doppler Colorido e 3D/4D",
-        "width": "100px",
-        "height": "auto"
+        "description": "Ultrassonografia com Doppler Colorido e 3D/4D"
+        
     },
     {
         "id": 12,
         "icon": "/assets/img/icon/exames/espirometria.png",
         "alt": "Espirometria",
-        "description": "Espirometria",
-        "width": "100px",
-        "height": "auto"
+        "description": "Espirometria"
+        
     },
     {
         "id": 13,
         "icon": "/assets/img/icon/exames/tomografiaodontologica.png",
         "alt": "Tomografia Odontológica",
-        "description": "Tomografia Odontológica",
-        "width": "100px",
-        "height": "auto"
+        "description": "Tomografia Odontológica"
+        
     },
     {
         "id": 14,
         "icon": "/assets/img/icon/exames/radiologia_odontologica.png",
         "alt": "Radiologia Odontológica",
-        "description": "Radiologia Odontológica",
-        "width": "100px",
-        "height": "auto"
+        "description": "Radiologia Odontológica"
+        
     },
     {
         "id": 15,
         "icon": "/assets/img/icon/exames/documentacaoodontologica.png",
         "alt": "Documentação Odontológica",
-        "description": "Documentação Odontológica",
-        "width": "100px",
-        "height": "auto"
+        "description": "Documentação Odontológica"
+    
     },
     {
         "id": 16,
         "icon": "/assets/img/icon/exames/colposcopia.png",
         "alt": "Colposcopia",
-        "description": "Colposcopia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Colposcopia"
+        
     },
     {
         "id": 17,
         "icon": "/assets/img/icon/exames/citologiaginecologica.png",
         "alt": "Citologia Ginecológica",
-        "description": "Citologia Ginecológica",
-        "width": "100px",
-        "height": "auto"
+        "description": "Citologia Ginecológica"
+        
     },
     {
         "id": 18,
         "icon": "/assets/img/icon/exames/neurologia.png",
         "alt": "Neurointervenção",
-        "description": "Neurointervenção",
-        "width": "100px",
-        "height": "auto"
+        "description": "Neurointervenção"
+        
     },
     {
         "id": 19,
         "icon": "/assets/img/icon/exames/teste-ergometrico2.png",
         "alt": "Teste Ergométrico",
-        "description": "Teste Ergométrico",
-        "width": "100px",
-        "height": "auto"
+        "description": "Teste Ergométrico"
+        
     },
     {
         "id": 20,
         "icon": "/assets/img/icon/exames/teste-do-olhinho.png",
         "alt": "Teste do Olhinho",
-        "description": "Teste do Olhinho",
-        "width": "100px",
-        "height": "auto"
+        "description": "Teste do Olhinho"
+    
     },
     {
         "id": 21,
         "icon": "/assets/img/icon/exames/raio-x.png",
         "alt": "Raio-X",
-        "description": "Raio-X",
-        "width": "100px",
-        "height": "auto"
+        "description": "Raio-X"
+        
     },
     {
         "id": 22,
         "icon": "/assets/img/icon/exames/polissonografia.png",
         "alt": "Polissonografia",
-        "description": "Polissonografia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Polissonografia"
+        
     },
     {
         "id": 23,
         "icon": "/assets/img/icon/exames/mrpa.png",
         "alt": "MRPA",
-        "description": "Monitorização Residencial da Pressão Arterial (MRPA)",
-        "width": "100px",
-        "height": "auto"
+        "description": "Monitorização Residencial da Pressão Arterial (MRPA)"
+        
     },
     {
         "id": 24,
         "icon": "/assets/img/icon/exames/Mapa-24-horas.png",
         "alt": "MAPA 24 Horas",
-        "description": "Monitorização Ambulatorial da Pressão Arterial (MAPA) - 24 Horas",
-        "width": "100px",
-        "height": "auto"
+        "description": "Monitorização Ambulatorial da Pressão Arterial (MAPA) - 24 Horas"
+        
     },
     {
         "id": 25,
         "icon": "/assets/img/icon/exames/holter-24-horas.png",
         "alt": "Holter 24 Horas",
-        "description": "Holter (Eletrocardiograma) - 24 Horas",
-        "width": "100px",
-        "height": "auto"
+        "description": "Holter (Eletrocardiograma) - 24 Horas"
     },
     {
         "id": 26,
         "icon": "/assets/img/icon/exames/fundo-de-olho.png",
         "alt": "Fundo de Olho",
-        "description": "Exame de Fundo de Olho",
-        "width": "100px",
-        "height": "auto"
+        "description": "Exame de Fundo de Olho"
+        
     },
     {
         "id": 27,
         "icon": "/assets/img/icon/exames/endoscopia.png",
         "alt": "Endoscopia",
-        "description": "Endoscopia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Endoscopia"
+        
     },
     {
         "id": 28,
         "icon": "/assets/img/icon/exames/ecocardiograma-com-doppler.png",
         "alt": "Ecocardiograma com Doppler",
-        "description": "Ecocardiograma com Doppler",
-        "width": "100px",
-        "height": "auto"
+        "description": "Ecocardiograma com Doppler"
+        
     },
     {
         "id": 29,
         "icon": "/assets/img/icon/exames/colonoscopia.png",
         "alt": "Colonoscopia",
-        "description": "Colonoscopia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Colonoscopia"
+        
     },
     {
         "id": 30,
         "icon": "/assets/img/icon/exames/biopsias.png",
         "alt": "Biópsias",
-        "description": "Biópsias",
-        "width": "100px",
-        "height": "auto"
+        "description": "Biópsias"
+        
     },    
     {
         "id": 31,
@@ -447,113 +416,99 @@
         "id": 65,
         "icon": "/assets/img/icon/exames/acupuntura.png",
         "alt": "Acupuntura",
-        "description": "Acupuntura",
-        "width": "100px",
-        "height": "auto"
+        "description": "Acupuntura"
+        
     },
     {
         "id": 66,
         "icon": "/assets/img/icon/exames/aromaterapia.png",
         "alt": "Aromaterapia",
-        "description": "Aromaterapia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Aromaterapia"
+        
     },
     {
         "id": 67,
         "icon": "/assets/img/icon/exames/terapia-floral.png",
         "alt": "Terapia Floral",
-        "description": "Terapia Floral",
-        "width": "100px",
-        "height": "auto"
+        "description": "Terapia Floral"
+        
     },
     {
         "id": 68,
         "icon": "/assets/img/icon/exames/ventosaterapia.png",
         "alt": "Ventosaterapia",
-        "description": "Ventosaterapia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Ventosaterapia"
+        
     },
     {
         "id": 69,
         "icon": "/assets/img/icon/exames/ozonioterapia.png",
         "alt": "Ozonioterapia",
-        "description": "Ozonioterapia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Ozonioterapia"
+    
     },
     {
         "id": 70,
         "icon": "/assets/img/icon/exames/fitoterapia.png",
         "alt": "Fitoterapia",
-        "description": "Fitoterapia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Fitoterapia"
+        
     },
     {
         "id": 71,
         "icon": "/assets/img/icon/exames/detox-ionico.png",
         "alt": "Detox Iônico",
-        "description": "Detox Iônico",
-        "width": "100px",
-        "height": "auto"
+        "description": "Detox Iônico"
+        
     },
     {
         "id": 72,
         "icon": "/assets/img/icon/exames/manta-termica.png",
         "alt": "Manta Térmica",
-        "description": "Manta Térmica",
-        "width": "100px",
-        "height": "auto"
+        "description": "Manta Térmica"
+        
     },
     {
         "id": 73,
         "icon": "/assets/img/icon/exames/drenagem-linfatica-com-manta-termica-e-maquina.png",
         "alt": "Drenagem Linfática com Manta Térmica e Máquina",
-        "description": "Drenagem Linfática com Manta Térmica e Máquina",
-        "width": "100px",
-        "height": "auto"
+        "description": "Drenagem Linfática com Manta Térmica e Máquina"
+        
     },
     {
         "id": 74,
         "icon": "/assets/img/icon/exames/auriculoterapia.png",
         "alt": "Auriculoterapia",
-        "description": "Auriculoterapia",
-        "width": "100px",
-        "height": "auto"
+        "description": "Auriculoterapia"
+        
     },
     {
         "id": 75,
         "icon": "/assets/img/icon/exames/drenagem-linfatica-manual.png",
         "alt": "Drenagem Linfática Manual",
-        "description": "Drenagem Linfática Manual",
-        "width": "100px",
-        "height": "auto"
+        "description": "Drenagem Linfática Manual"
+    
     },
     {
         "id": 76,
         "icon": "/assets/img/icon/exames/liberacao-miofascial.png",
         "alt": "Liberação Miofascial",
-        "description": "Liberação Miofascial",
-        "width": "100px",
-        "height": "auto"
+        "description": "Liberação Miofascial"
+        
     },
     {
         "id": 77,
         "icon": "/assets/img/icon/exames/massagem-relaxante-pedras-quentes.png",
         "alt": "Massagem Relaxante com Pedras Quentes",
-        "description": "Massagem Relaxante com Pedras Quentes",
-        "width": "100px",
-        "height": "auto"
+        "description": "Massagem Relaxante com Pedras Quentes"
+        
     },
     {
         "id": 78,
         "icon": "/assets/img/icon/exames/massagem-relaxante.png",
         "alt": "Massagem Relaxante",
-        "description": "Massagem Relaxante",
-        "width": "100px",
-        "height": "auto"
+        "description": "Massagem Relaxante"
+        
     }
     
 ]
