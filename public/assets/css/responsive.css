@@ -58,7 +58,7 @@
 }
 
 .slider-height {
-	min-height: 860px;
+	min-height: 760px !important;
 }
 
 .services-content p {
@@ -231,7 +231,7 @@
 
 .slider-height {
 
-	min-height: 750px;
+	min-height: 550px !important;
 
 }
 
